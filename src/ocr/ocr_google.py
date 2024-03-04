@@ -53,7 +53,7 @@ def extract_text_from_image_google(image, language_hints='fr-t-i0-handwrit', bou
     Returns:
         str: Extracted text from the image.
     """
-    credentials_path = 'src/ocr/google-cloud-vision/teak-surge-406914-2801c565ca75.json'
+    credentials_path = 'CHEMIN_VERS_VOTRE_CREDENTIALS_JSON'
 
     # Specify the path to the service account key file
     credentials = service_account.Credentials.from_service_account_file(
