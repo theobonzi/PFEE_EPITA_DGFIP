@@ -71,7 +71,7 @@ python run.py -inference_excel <chemin_vers_le_fichier_excel> -ocr=<google|trocr
 #### Options communes pour l'inférence :
 
 - `-ocr` : Spécifie le moteur OCR à utiliser (`google`, `trocr`, `tesseract`).
-- `-nb_files` : Définit le nombre de fichier à traiter.
+- `-nb_files` : Définit le nombre de fichiers à traiter.
 - `-nb_ocr` : Définit le nombre d'OCR à traiter.
 
 #### Benchmarks
